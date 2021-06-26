@@ -3,18 +3,20 @@
 
 function calcularPrecioConDescuento(Precio, Descuento) {
     const PorcentajePrecioDes = 100 - Descuento;
-    const PrecioConDes = (Precio * PorcentajePrecioDes) / 100;   
+    const PrecioConDes = (Precio * PorcentajePrecioDes) / 100; 
+    return PrecioConDes;
 }
 
 function BpriceDis(){
     const inputPrice = document.getElementById("InputPrice");
-    const priceValue = inputPrice.value;
+    const priceValue = parseInt(inputPrice.value);
     
     const inputDis = document.getElementById("InputDiscount");
-    const DisValue = inputDis.value;
+    const DisValue = parseInt(inputDis.value);
 
     const PrecioConDes = calcularPrecioConDescuento(priceValue, DisValue);
-    alert(PrecioConDes);
+    const resultP = document.getElementById("ResultP");
+    resultP.innerText = "El precio con descuento son $" + PrecioConDes;
 }
 
 
