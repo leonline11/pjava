@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Figuras Geometricas
+        </h1>
+        <p>Taller JS</p>
+    </header>
+    <section>
+        <h2>Calcular area y perimetro de un cuadrado</h2>
+        <form>
+            <p><label for="InputCuadrado">
+                Escribe cuando mide cada lado de tu cuadrado
+            </label>
+            <input id="InputCuadrado" type="number"/></p>
+            <button type="button" onclick="calcularPerimetroCu()">
+                Calcular El Perimetro
+            </button>
+            <button type="button" onclick="calcularAreaCu()">
+                Calcular el Area
+            </button>
+        </form>
+    </section>
+    <section>
+        <h2>Calcular Perimetro de un Triangulo</h2>
+        <form>
+            <p><label for="InputLado1">
+                Escribe cuando mide el lado 1 de tu triangulo
+            </label>
+            <input id="InputLado1" type="number"/></p>
+            <p><label for="InputLado2">
+                Escribe cuando mide el lado 2 de tu triangulo
+            </label>
+            <input id="InputLado2" type="number"/></p>
+            <p><label for="InputBase">
+                Escribe cuando mide la base de tu triangulo
+            </label>
+            <input id="InputBase" type="number"/></p>
+            <button type="button" onclick="calcularPerimetroTri()">
+                Calcular El Perimetro
+            </button>
+        </form>
+    <section> 
+        <form>
+        <h2>Calcular Area de un Triangulo</h2>
+        <p><label for="baseT">
+                Escribe cuando mide la altura de tu triangulo
+            </label>
+            <input id="baseT" type="number"/></p>
+            <p><label for="alturaT">
+                Escribe cuando mide la base de tu triangulo
+            </label>
+            <input id="alturaT" type="number"/></p>
+            
+        <button type="button" onclick="calcularAreaTri()">
+            Calcular el Area
+        </button>
+    </form>
+    </section>
+    <script src="./figuras.js"></script>
+</body>
+</html>
