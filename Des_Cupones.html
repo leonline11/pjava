@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes, Descuentos y Cupones</title>
+</head>
+<body>
+    <header>
+        <h1>
+         Porcentajes, Descuentos y Cupones
+        </h1>
+        <p>Taller #2 JS</p>
+    </header>
+    
+    <section>
+        <h2> Calcula el precio de tus productos con Descuento.</h2>
+        <form>
+            <br><label for="InputPrice">
+                Escribe un Precio de tu Producto
+            </label>
+            <input id="InputPrice" type="number"/></br>
+
+            <br><label for="InputDiscount">Escribe el Descuento de tu Producto</label>
+            <input id="InputDiscount" type="number"/></br>
+
+            <br><button type="button" onclick="BpriceDis()">
+                Calcular el Precio con Descuento
+            </button></br>
+
+            <br><p id="ResultP"> </p></br>
+        </form>
+    </section>
+    <section>
+        <h2>Cupon Oferton</h2>
+        <br><label for="InputCupon">
+            Escribe el porcentaje de tu cupon
+        </label>
+        <input id="InputCupon" type="number"/></br>
+        <br><button type="button" onclick="BcuponDis()">
+            Calcular el Precio con Descuento y cupon
+        </button></br>
+    </section>
+
+    <script src="/Des_Cupones.js"></script>
+</body>
+</html>
