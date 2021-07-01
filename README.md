@@ -28,3 +28,10 @@
 -2) Implementar la Formulas en JavaScrip
 -3) Crear  Funciones
 -4) Integrar JS con HTML
+
+## Taller #4 Salarios
+
+-1) Definir las Formulas
+-2) Implementar la Formulas en JavaScrip
+-3) Crear  Funciones
+-4) Integrar JS con HTML
